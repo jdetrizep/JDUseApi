@@ -12,15 +12,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		43D1D05A9D2CB773BC837B24 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		43D1D05A9D2CB773BC837B24 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* JDUseApi_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDUseApi_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		BCD85F736CD95D4F1C4EAE72 /* Pods-JDUseApi_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDUseApi_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JDUseApi_Tests/Pods-JDUseApi_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CCB578807E668D50D48FAC12 /* JDUseApi.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JDUseApi.podspec; path = ../JDUseApi.podspec; sourceTree = "<group>"; };
+		CCB578807E668D50D48FAC12 /* JDUseApi.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JDUseApi.podspec; path = ../JDUseApi.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CE7C39BE156CECC66693BD70 /* Pods-JDUseApi_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDUseApi_Tests.release.xcconfig"; path = "Target Support Files/Pods-JDUseApi_Tests/Pods-JDUseApi_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CFE5823AF8993358E38A92FB /* Pods_JDUseApi_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDUseApi_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8720514B130AC1AFFF2139D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F8720514B130AC1AFFF2139D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,6 @@
 				BCD85F736CD95D4F1C4EAE72 /* Pods-JDUseApi_Tests.debug.xcconfig */,
 				CE7C39BE156CECC66693BD70 /* Pods-JDUseApi_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
