@@ -1,0 +1,16 @@
+PODS:
+  - JDUseApi (0.1.0)
+
+DEPENDENCIES:
+  - JDUseApi (from `../`)
+
+EXTERNAL SOURCES:
+  JDUseApi:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JDUseApi: 9ace3e6d87d31a980902287d858c06451bc7e2f7
+
+PODFILE CHECKSUM: 1fa495cf2c7207acbc66a3349dc4541a1604e486
+
+COCOAPODS: 1.10.1

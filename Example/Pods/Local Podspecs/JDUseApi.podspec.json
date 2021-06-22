@@ -1,0 +1,22 @@
+{
+  "name": "JDUseApi",
+  "version": "0.1.0",
+  "summary": "A short description of JDUseApi.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jdetrizep/JDUseApi",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jdetrizep": "76084420+jdetrizep@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/jdetrizep/JDUseApi.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JDUseApi/Classes/**/*"
+}
