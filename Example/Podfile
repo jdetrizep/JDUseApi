@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JDUseApi_Tests' do
+  pod 'JDUseApi', :path => '../'
+  
+  
+end
